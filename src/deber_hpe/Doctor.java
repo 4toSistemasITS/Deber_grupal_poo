@@ -56,7 +56,7 @@ public class Doctor extends Procesos{
         targeta= Integer.parseInt(JOptionPane.showInputDialog("Ingrese el N° tarjeta"));
         diagnostico=P.atender_Paciente();
         Doctor="INFORMACIÓN DEL DOCTOR\n"+"Nombre: "+nombre_d+"\n"+"Apellido: "+apellido_d+"\n"
-                +"N° de terjeta: "+targeta+"DIAGNOSTICO \n"+ diagnostico;
+                +"N° de terjeta: "+targeta+"\n"+"DIAGNOSTICO \n"+ diagnostico;
         return Doctor;
     }
     

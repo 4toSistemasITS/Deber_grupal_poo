@@ -72,4 +72,17 @@ public class Hospital extends Procesos{
         return inf_h;
         
     }
+     public String inf_hospital2(){
+        String fecha;
+        String inf_h;
+        Procesos p= new Procesos();
+        nombre="Hospital Eugenio Espejo";
+        id=124;
+        direccion="Juan Montalvo y Vicente Rocafuerte";
+        telefono="2676239";
+        fecha= p.dar_cita();
+        inf_h="                   "+nombre+"\nDirección: "+direccion+"\nTeléfono: "+telefono+"\nCita programada para: "+fecha;
+        return inf_h;
+        
+    }
 }
